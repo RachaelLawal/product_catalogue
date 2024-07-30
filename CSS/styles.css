@@ -1,0 +1,184 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #C987BD;
+    color:  #46045D;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #46045D;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main styles */
+main {
+    padding: 320px;
+    background-color:#C987BD;  
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input[type="file"] {
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #46045D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #834699;
+}
+
+/* Product styles */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.product a:hover {
+    text-decoration: underline;
+}
+
+/* Login/Register styles */
+.login,
+.register {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login h2,
+.register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login form,
+.register form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login form input,
+.register form input {
+    margin-bottom: 10px;
+}
+
+.login form button,
+.register form button {
+    align-self: center;
+    width: 50%;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color:#46045D;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
